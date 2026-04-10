@@ -1,0 +1,30 @@
+Sparse2Dense run information
+
+Arguments:
+- image_input: 'dataset_examples/KITTI/data_tracking_image_2/training/image_02/0000/'
+- pointcloud_input: 'dataset_examples/KITTI/data_tracking_velodyne/training/velodyne/0000'
+- calibration_yaml: 'dataset_examples/KITTI/calibration.yaml'
+- output_folder: 'output_examples/KITTI'
+- depth_mask_size: 13
+- intensity_mask_size: 13
+- depth: True
+- intensity: True
+- debug: True
+- ratio_threshold: 0.15
+- jump_threshold: 0.01
+- device: 'cuda'
+
+Results:
+- output_root: output_examples/KITTI
+- device_used: cuda
+- pairs_found: 154
+- depth_maps_generated: 154
+- intensity_maps_generated: 154
+- debug_images_generated: 154
+- total_wall_time_s: 69.331646
+- depth_total_time_s: 39.734465
+- depth_average_time_s: 0.258016
+- intensity_total_time_s: 39.734465
+- intensity_average_time_s: 0.258016
+- unmatched_images: 0
+- unmatched_pointclouds: 0

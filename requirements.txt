@@ -1,0 +1,15 @@
+# Core numerical and image-processing dependencies
+numpy
+opencv-python
+Pillow
+PyYAML
+
+# CPU acceleration for the reference pipeline
+numba
+
+# PyTorch backend
+# Note:
+# - `torch` is required for the PyTorch implementation.
+# - For CUDA support, install the appropriate wheel for your system from:
+#   https://pytorch.org/get-started/locally/
+torch

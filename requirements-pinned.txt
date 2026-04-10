@@ -1,0 +1,11 @@
+# Pinned dependencies from the current development environment
+numpy==1.26.3
+opencv-python==4.10.0
+Pillow==10.4.0
+PyYAML==6.0.2
+numba==0.65.0
+
+# PyTorch build currently used in this project environment.
+# For CUDA installation, use the matching index/wheel from:
+# https://pytorch.org/get-started/locally/
+torch==2.6.0+cu124

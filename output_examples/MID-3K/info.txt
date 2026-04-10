@@ -1,0 +1,30 @@
+Sparse2Dense run information
+
+Arguments:
+- image_input: 'dataset_examples/MID-3K/MID-3K-rgb/images/'
+- pointcloud_input: 'dataset_examples/MID-3K/MID-3K-pcd/pcd/'
+- calibration_yaml: 'dataset_examples/MID-3K/calibration.yaml'
+- output_folder: 'output_examples/MID-3K'
+- depth_mask_size: 17
+- intensity_mask_size: 17
+- depth: True
+- intensity: True
+- debug: True
+- ratio_threshold: 0.15
+- jump_threshold: 0.01
+- device: 'cuda'
+
+Results:
+- output_root: output_examples/MID-3K
+- device_used: cuda
+- pairs_found: 20
+- depth_maps_generated: 20
+- intensity_maps_generated: 20
+- debug_images_generated: 20
+- total_wall_time_s: 8.828312
+- depth_total_time_s: 5.421025
+- depth_average_time_s: 0.271051
+- intensity_total_time_s: 5.421025
+- intensity_average_time_s: 0.271051
+- unmatched_images: 0
+- unmatched_pointclouds: 0
